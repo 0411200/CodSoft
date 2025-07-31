@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page by Sakshi</title>
+<style>
+  /* Reset & basics */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; }
+
+  /* Navbar */
+  nav {
+    background-color: #004aad;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  nav ul li {
+    margin-left: 20px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  /* Hero section */
+  .hero {
+    background-color: #eaf3fb;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  .hero h1 {
+    color: #004aad;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  .hero .btn {
+    background-color: #004aad;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  .hero .btn:hover {
+    background-color: #00337f;
+  }
+
+  /* Features */
+  #features {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  #features h2 {
+    color: #004aad;
+    margin-bottom: 30px;
+  }
+  .feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .card {
+    background-color: #eaf3fb;
+    border: 2px solid #004aad;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+  }
+  .card h3 {
+    color: #004aad;
+    margin-bottom: 10px;
+  }
+
+  /* About */
+  #about {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  #about h2 {
+    color: #004aad;
+    margin-bottom: 20px;
+  }
+  #about p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    color: #444;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004aad;
+    color: white;
+    margin-top: 40px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div class="logo">MyProduct</div>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero section -->
+<section class="hero">
+  <h1>Welcome to MyProduct</h1>
+  <p>Simple, creative & modern landing page made with HTML & CSS</p>
+  <a href="#" class="btn">Get Started</a>
+</section>
+
+<!-- Features section -->
+<section id="features">
+  <h2>Features</h2>
+  <div class="feature-cards">
+    <div class="card">
+      <h3>Fast</h3>
+      <p>Experience quick and seamless performance.</p>
+    </div>
+    <div class="card">
+      <h3>Secure</h3>
+      <p>Your data stays safe and protected always.</p>
+    </div>
+    <div class="card">
+      <h3>Responsive</h3>
+      <p>Looks great on all devices, big or small.</p>
+    </div>
+  </div>
+</section>
+
+<!-- About section -->
+<section id="about">
+  <h2>About Us</h2>
+  <p>We are a creative team dedicated to designing modern, clean, and user-friendly products. Our mission is to make the web better and help people with beautiful designs.</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 MyProduct by Sakshi Sharma. All rights reserved.
+</footer>
+
+</body>
+</html>
